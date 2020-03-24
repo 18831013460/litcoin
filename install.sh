@@ -18,4 +18,4 @@ cd cpuminer-multi/
 make 
 sudo make install 
 
-nohup minerd -a sha256d  --threads=1  -o  stratum+tcp://ltc.f2pool.com:8888  -u  xiao18831013460.001 -p 123 >ch.log  &
+#nohup minerd -a sha256d  --threads=1  -o  stratum+tcp://ltc.f2pool.com:8888  -u  xiao18831013460.001 -p 123 >ch.log  &
