@@ -17,5 +17,5 @@ cd cpuminer-multi/
 ./configure CFLAGS="-march=native" 
 make 
 sudo make install 
-
-#nohup minerd -a sha256d  --threads=1  -o  stratum+tcp://ltc.f2pool.com:8888  -u  xiao18831013460.001 -p 123 >ch.log  &
+mkdir log
+#nohup  minerd -a cryptonight  --threads=1  -o  stratum+tcp://xmr.f2pool.com:13531  -u 475K1QJkKzDMNVX8HAcckSKKvwNMtmuGw4Mizgz4QHzHJbW8SVT5KXwJUWYfNbyW7LFkwWjm2P1zED7kiQF51fKCMtwnTsS.001  >log/ltc.log &
